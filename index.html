@@ -7,12 +7,24 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <!-- bootstrap 5 doesn't depend on jquery -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <!-- may need bundle.min.js in some cases, will see later -->
         <link src="js/bootstrap.min.js">
         <link src="js/script.js">
         <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <header>This is header</header>
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html">
+                            <div id="logo-img" alt="Logo image"></div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <section>This is content</section>
         <footer>This is footer</footer>
     </body>
