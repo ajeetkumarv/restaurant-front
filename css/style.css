@@ -108,6 +108,10 @@ body {
         width: 360px;
         margin: 0 auto 15px;
     }
+
+    .panel-footer {
+        text-align: center;
+    }
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -145,4 +149,27 @@ body {
     background-color: #000;
     color: #fff;
     opacity: .8;
+}
+
+.panel-footer {
+    background-color: #222;
+    padding-top: 15px; 
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 10px;
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#address p{
+    color: #557c3e;
+    font-size: 0.8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
 }
