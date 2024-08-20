@@ -48,3 +48,33 @@ body {
 .navbar-brand p span {
     vertical-align: middle;
 }
+
+#nav-list a {
+    color: #951C49;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-list a:hover {
+    color: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+    padding-right: 10px;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    columns: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}

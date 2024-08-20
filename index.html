@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>David Chu's China Bistro</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <!-- bootstrap 5 doesn't depend on jquery -->
@@ -11,6 +12,7 @@
         <!-- may need bundle.min.js in some cases, will see later -->
         <link src="js/bootstrap.min.js">
         <link src="js/script.js">
+        
         <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
 
@@ -32,36 +34,23 @@
                                 <span>Kosher Certified</span>
                             </p>
                         </div>
-                        <button type="button" class="float-end navbar-toggler"
-                            data-bs-toggle="collapse" data-bs-target="#collapsable-nav"
-                            aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarSupportedContent">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
                     </div>
 
-                    <div id="collapsable-nav" class="collapse navbar-collapse">
-                        <ul id="nav-list" class="nav navbar-nav navbar-right">
-                            <li>
+                    <div id="collapsable-nav" >
+                        <ul id="nav-list" class="nav navbar-nav navbar-end">
+                            <li >
                                 <a href="menu-categories.html">
-                                    <span class="glyphicon glyphicon-cutlery"></span>
-                                    <br class="hidden-xs">Menu
+                                    <span class="bi bi-menu-button-wide"></span>Menu
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="glyphicon glyphicon-info-sign"></span>
-                                    <br class="hidden-xs">About
+                                    <span class="bi bi-link"></span>About
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <span class="glyphicon glyphicon-certificate"></span>
-                                    <br class="hidden-xs">Awards
-                                </a>
-                            </li>
-                            <li id="phone" class="hidden-xs">
+                            <li id="phone">
                                 <a href="tel:410-602-5008">
-                                    <span>410-602-5008</span></a>
+                                    <span class="bi bi-telephone"></span>410-602-5008</a>
                                     <div>* We Deliver</div>
                             </li>
                         </ul>
